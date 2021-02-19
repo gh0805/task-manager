@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*height: 100%;*/
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+
+#header{
+	width: 100%;
+	min-width: 1000px;
+	width: expression_r(document.body.clientWidth < 1000 ? "1000px" : "auto");
+	/*height: 30px;*/
+	height: 5%;
+	padding: 10px 0px;
+	background-color: #d0d0d0;
+	font-size: 20px;
+	font-weight: bold;
+	color: gray;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+#container{
+	width: 100%;
+	min-width: 1000px;
+	width: expression_r(document.body.clientWidth < 1000 ? "1000px" : "auto");
+	
+	/*height: auto !important;*/
+	/*height: 540px;*/
+	min-height: 400px;
+	overflow: visible;
+	height: calc(95% - 20px);
+}
+#left1{
+	float: left;
+	width: 460px;
+	height: 100%;
+}
+#left{
+	float: left;
+	width: 230px;
+	/*height: 540px;*/
+	height: 100%;
+	background-color: whitesmoke;
+	border-top: 1px solid #d0d0d0;
+}
+#left-container{
+	/*height: 484px;*/
+	height: calc(95% - 10px);
+}
+.left-p{
+	padding: 20px 10px 0px 10px;
+	height: 22px;
+}
+#item{
+	margin: 20px 20px 10px 20px;
+	height: calc(90% - 54px);
+}
+#item > li{
+	margin: 0px 0px 10px 0px;
+}
+
+.item_background{
+	background-color: #778899;
+}
+
+.item-div{
+	/*margin: 0px 20px 0px 0px;*/
+	padding-left: 20px;
+	display: inline-block;
+	background: url(../image/1.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+}
+.ul_2nd{
+	/*margin: 10px 0px 0px 0px;*/
+}
+.li_box{
+	margin: 10px 0px 0px 35px;
+	/*padding-left: 20px;*/
+	width: calc(100% - 35px);
+}
+.li_2nd{
+	/*margin: 10px 0px 0px 35px;*/
+	padding-left: 20px;
+	width: calc(100% - 20px);
+	display: inline-block;
+	background: url(../image/2.png);
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+}
+.item-img1{
+	float: right;
+	margin: 10px 0px 0px 0px;
+	opacity: 0;
+}
+.add{
+	padding: 5px 0px 5px 20px;
+	/*height: 25px;*/
+	height: 5%;
+	border-top: 1px solid #d0d0d0;
+	background-color: whitesmoke;
+}
+.add-img{
+	margin: 5px 10px 0px 0px;
+}
+.add-a{
+	margin: 0px 20px 0px 0px;
+}
+
+#center{
+	margin-left: 230px;
+	width: 230px;
+	height: 100%;
+	border-top: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+}
+#center-container{
+	height: calc(95% - 10px);
+}
+#center-item{
+	padding: 10px 0px 0px 10px;
+	height: 30px;
+	background-color: gainsboro;
+}
+#center-item li{
+	float: left;
+	padding: 0px 10px;
+	height: 20px;
+	display: inline;
+}
+/*#center-item li:hover{
+	background-color: white;  箭头变成I
+}*/
+.li_addcolor {
+	background-color: red;
+}
+#content{
+	height: calc(95% - 30px);
+}
+.none{
+	display: none;
+}
+.dates{
+	padding: 5px 0px 5px 10px;
+	background-color: pink;
+}
+.li_title{
+	padding: 5px 0px 5px 20px;
+}
+.title_background{
+	background-color: yellow;
+}
+
+#right{
+	margin-left: 460px;
+	height: 95%;
+	opacity: 0;
+}
+#right_titlebox{
+	padding: 15px 10px;
+	font-weight: bold;
+	background-color: whitesmoke;
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: lightgrey;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: lightgrey;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: lightgrey;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: lightgrey;
+}
+#right_titlebox input[type=text] {
+	border-width: 0;
+	outline: none;
+	height: 30px;
+	width: 80%;
+	font-size: 20px;
+	background-color: whitesmoke;
+}
+#right_titlebox img, #right_titlebox button{
+	float: right;
+	margin:0px 10px;
+}
+#rightbox-date{
+	padding: 15px 10px;
+	background-color: floralwhite;
+	font-size: 15px;
+}
+#rightbox-date input[type=text]{
+	padding: 0px;
+	border-width: 0;
+	outline: none;
+	height: 30px;
+	font-size: 15px;
+
+}
+#right_content{
+	margin: 20px 15px;
+	border-width: 0;
+	outline: none;
+	width: 96%;
+	resize: none;
+	font-size: 16px;
+	height: calc(95% - 135px);
+}
+textarea::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: lightgrey;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: lightgrey;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: lightgrey;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: lightgrey;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/index.js"></script>
+	<!-- <script type="text/javascript" src="note.js"></script> -->
+</head>
+<body>
+	<div id="header">GTD Tools</div>
+	<div id="container">
+		<div id="left1">
+			<div id="left">
+				<div id="left-container">
+					<div class="left-p">所有任务（<span>0</span>）</div>
+					<div class="left-p">分类列表</div>
+					<ul id="item">
+						<li>
+							<!-- <img class="item-img" src="image/1.png"> -->
+							<div class="item-div" >默认分类（<span>0</span>）</div>
+						</li>
+					</ul>
+				</div>
+				<div class="add">
+					<img class="add-img" src="image/4.png">
+					<a class="add-a" href="#" id="newsort">新增分类</a>
+				</div>
+			</div>
+			<div id="center" style="opacity: 0;">
+				<div id="center-container">
+					<ul id="center-item">
+						<li id="all"><a href="#">所有</a></li>
+						<li id="undones"><a href="#">未完成</a></li>
+						<li id="dids"><a href="#">已完成</a></li>
+					</ul>
+					<div id="content">
+						<!-- <ul id="center_date"></ul> -->
+					</div>
+				</div>
+				<div class="add">
+					<img class="add-img" src="image/4.png">
+					<a class="add-a" id="newtask" href="#">新增任务</a>
+				</div>
+			</div>
+		</div>
+		<div id="right">
+			<div id="right_titlebox">
+				<input id="right_title" type="text" name="title" placeholder="请输入标题,不超过二十字" maxlength="20">
+				<img id="bianji" src="image/6.png"> 
+				<img id="wancheng" src="image/5.png">
+				<button id="quxiao"> 取消 </button>
+				<button id="queding"> 确定 </button>
+			</div>
+			<div id="rightbox-date">
+			任务日期：<input  id="right_date" type="text" placeholder="yyyy-mm-dd">
+			</div>
+			<textarea id="right_content" placeholder="字数不超过500"  maxlength="500"></textarea>
+		</div>
+	</div>
+
+
+</body>
+</html>
